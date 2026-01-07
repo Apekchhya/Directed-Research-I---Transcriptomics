@@ -1,0 +1,20 @@
+RNA_SEQ/
+├── main.py
+├── config.py
+├── modules/
+│   ├── hisat2_module.py
+│   ├── stringtie_module.py
+│   ├── merge_module.py
+│   ├── gffcompare_module.py
+│   └── quantify_module.py
+├── data/
+│   ├── fastq/
+│   └── reference/
+│       ├── genome.fa
+│       └── annotation.gtf
+└── results/
+    ├── hisat2/
+    ├── stringtie/
+    ├── merge/
+    ├── gffcompare/
+    └── expression/
